@@ -19,6 +19,7 @@ UCB Data Science Bootcamp - Module 15 R &amp; Statistical Analysis
 
 **Overall Summary:** 
 ![Overall Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/overall_summary.png)
+
 **Lot Summary**
 ![Lot Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/lot_group_summary.png)
 
