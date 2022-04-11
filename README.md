@@ -18,9 +18,11 @@ UCB Data Science Bootcamp - Module 15 R &amp; Statistical Analysis
     - The current manufacturing data does not meet this design specification, since Lot3 has a variance of 170, which is above the specified threshold of 100 PSI.
 
 **Overall Summary:** 
+
 ![Overall Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/overall_summary.png)
 
 **Lot Summary**
+
 ![Lot Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/lot_group_summary.png)
 
  ## T-Tests on Suspension Coils
