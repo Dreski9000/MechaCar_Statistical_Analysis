@@ -17,7 +17,7 @@ UCB Data Science Bootcamp - Module 15 R &amp; Statistical Analysis
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
     - The current manufacturing data does not meet this design specification, since Lot3 has a variance of 170, which is above the specified threshold of 100 PSI.
 
-**Overall Summary:** 
+**Overall Summary** 
 
 ![Overall Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/overall_summary.png)
 
