@@ -25,7 +25,7 @@ UCB Data Science Bootcamp - Module 15 R &amp; Statistical Analysis
 
 ![Lot Summary](https://raw.githubusercontent.com/Dreski9000/MechaCar_Statistical_Analysis/main/lot_group_summary.png)
 
- ## T-Tests on Suspension Coils
+## T-Tests on Suspension Coils
 
 Based on the T-Tests performed across all three sample lots (Lot1, Lot2, Lot3), none of the samples exceed the threshold p-value of 0.05, therefore, the samples do not exhibit a statistically significant difference in their distribution from the population mean.
 
