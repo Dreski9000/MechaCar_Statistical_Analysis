@@ -15,7 +15,19 @@ sus_df <- read_csv(file='Suspension_Coil.csv')
 
 # create a summary dataframe
 ?summarize()
-#summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n(), .groups = 'keep')
+
+# create total summary w/ mean, median, variance and standard deviation
 total_summary <- sus_df %>% summarize(Mean_PSI=mean(PSI), Med_PSI=median(PSI), Var_PSI=var(PSI), SD_PSI=sd(PSI))
 
+# create summary with lot groupings
 lot_summary <- sus_df %>% group_by(Manufacturing_Lot) %>%summarize(Mean_PSI=mean(PSI), Med_PSI=median(PSI), Var_PSI=var(PSI), SD_PSI=sd(PSI))
+
+# perform t-test across all the different manufacturing lots
+?t.test()
+# t-test for lot1 compared to population mean
+t.test(subset(sus_df, Manufacturing_Lot="Lot1")$PSI, mu=1500)
+# t-test for lot2 compared to population mean
+t.test(subset(sus_df, Manufacturing_Lot="Lot2")$PSI, mu=1500)
+# t-test for lot3 compared to population mean
+t.test(subset(sus_df, Manufacturing_Lot="Lot3")$PSI, mu=1500)
+
